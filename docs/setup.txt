@@ -1,0 +1,17 @@
+Git Practical Project - Initial Setup
+
+Requirements:
+- Git
+- C++17-compatible compiler
+- Visual Studio Code
+
+Build command:
+
+g++ -std=c++17 src/*.cpp -Iinclude -Wall -Wextra -pedantic -o app.exe
+
+Run command:
+
+.\app.exe
+
+The application currently initializes a collection of user accounts and
+prints their basic account information.
