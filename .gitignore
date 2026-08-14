@@ -1,0 +1,25 @@
+# C/C++ executables
+*.exe
+*.out
+*.o
+*.obj
+
+# Build directories
+build/
+bin/
+
+# Visual Studio Code
+.vscode/
+
+# Debug files
+*.dSYM/
+*.pdb
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
