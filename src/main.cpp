@@ -2,6 +2,7 @@
 #include "login.h"
 #include "profile.h"
 #include "dashboard.h"
+#include "settings.h"
 #include <iostream>
 #include <vector>
 
@@ -39,6 +40,9 @@ int main() {
     break;
     case 3:
     showDashboard(*currentUser);
+    break;
+    case 4:
+    updateSettings(*currentUser);
     break;
     if (!login(users, currentUser)) {
         return 1;
