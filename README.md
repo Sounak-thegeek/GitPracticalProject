@@ -44,4 +44,34 @@ After compilation, run:
 .\app.exe
 ```
 
+## Demo Accounts
+
+The application includes two demonstration accounts:
+
+| Username | Password |
+|----------|----------|
+| alice | alice123 |
+| bob | bob456 |
+
+These credentials are intended only for local demonstration.
+
+## Application Features
+
+### Login
+
+Authenticates a user using a username and password and permits three attempts.
+
+### Profile
+
+Displays and modifies the user's name, email address, and biography.
+
+### Dashboard
+
+Displays account activity, notification status, theme, and account information.
+
+### Settings
+
+Allows the user to enable or disable notifications and select a light or dark
+theme.
+
 
