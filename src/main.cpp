@@ -1,4 +1,5 @@
 #include "user.h"
+#include "login.h"
 #include <iostream>
 #include <vector>
 
@@ -27,10 +28,13 @@ int main() {
     std::cout << "Available accounts: "
               << users.size() << "\n";
 
-    for (const User& user : users) {
-        printUserSummary(user);
-        std::cout << '\n';
+    User* currentUser = nullptr;
+
+    if (!login(users, currentUser)) {
+        return 1;
     }
+
+    printUserSummary(*currentUser);
 
     return 0;
 }
