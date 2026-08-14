@@ -35,3 +35,13 @@ Open PowerShell in the project directory and run:
 ```text
 g++ -std=c++17 src/*.cpp -Iinclude -Wall -Wextra -pedantic -o app.exe
 ```
+
+## Running the Application
+
+After compilation, run:
+
+```text
+.\app.exe
+```
+
+
