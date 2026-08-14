@@ -1,0 +1,11 @@
+Troubleshooting
+
+1. If g++ is not recognized, verify that MinGW is installed and its bin
+   directory is included in PATH.
+
+2. If compilation reports permission denied for app.exe, make sure the
+   executable is not currently running.
+
+3. Recompile using:
+
+g++ -std=c++17 src/*.cpp -Iinclude -Wall -Wextra -pedantic -o app.exe
