@@ -1,5 +1,6 @@
 #include "user.h"
 #include "login.h"
+#include "profile.h"
 #include <iostream>
 #include <vector>
 
@@ -29,7 +30,12 @@ int main() {
               << users.size() << "\n";
 
     User* currentUser = nullptr;
-
+    case 1:
+    showProfile(*currentUser);
+    break;
+    case 2:
+    updateProfile(*currentUser);
+    break;
     if (!login(users, currentUser)) {
         return 1;
     }
