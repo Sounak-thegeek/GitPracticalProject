@@ -27,3 +27,11 @@ The project requires:
 - Visual Studio Code or another C++ editor
 - MinGW-w64 or another C++17-compatible compiler
 - A GitHub account for remote repository hosting
+
+## Build Instructions
+
+Open PowerShell in the project directory and run:
+
+```text
+g++ -std=c++17 src/*.cpp -Iinclude -Wall -Wextra -pedantic -o app.exe
+```
