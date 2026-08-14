@@ -74,4 +74,11 @@ Displays account activity, notification status, theme, and account information.
 Allows the user to enable or disable notifications and select a light or dark
 theme.
 
+## Repository Structure
+
+```text
+include/    Header files
+src/        C++ implementations
+docs/       Project documentation
+```
 
