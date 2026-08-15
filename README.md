@@ -104,5 +104,7 @@ to recover commits that are no longer reachable from the current branch tip.
 
 ## Project Summary
 
-The application demonstrates modular C++ user management with authentication,
-profile management, dashboard reporting, and account settings.
+This project is a modular C++ console application demonstrating
+authentication, profile management, dashboard reporting, account settings,
+and practical Git workflows including branching, merging, stash operations,
+conflict resolution, and history recovery.
