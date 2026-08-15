@@ -91,3 +91,8 @@ automated tests, and improved command-line input validation.
 
 The application is intentionally divided into separate modules so that
 individual features can be developed and reviewed independently.
+
+## Command Reference
+
+The application menu provides profile viewing, profile editing,
+dashboard reporting, settings management, and logout operations.
