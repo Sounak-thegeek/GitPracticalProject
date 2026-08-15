@@ -101,3 +101,8 @@ dashboard reporting, settings management, and logout operations.
 
 Git reflog records local references to branch positions and can be used
 to recover commits that are no longer reachable from the current branch tip.
+
+## Project Summary
+
+The application demonstrates modular C++ user management with authentication,
+profile management, dashboard reporting, and account settings.
