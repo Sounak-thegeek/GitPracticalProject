@@ -82,3 +82,7 @@ src/        C++ implementations
 docs/       Project documentation
 ```
 
+## Future Improvements
+
+Potential improvements include persistent storage, password hashing,
+automated tests, and improved command-line input validation.
