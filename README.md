@@ -86,3 +86,8 @@ docs/       Project documentation
 
 Potential improvements include persistent storage, password hashing,
 automated tests, and improved command-line input validation.
+
+## Development Notes
+
+The application is intentionally divided into separate modules so that
+individual features can be developed and reviewed independently.
