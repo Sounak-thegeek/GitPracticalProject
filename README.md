@@ -101,3 +101,9 @@ dashboard reporting, settings management, and logout operations.
 
 Git reflog records local references to branch positions and can be used
 to recover commits that are no longer reachable from the current branch tip.
+
+## Project Summary
+
+This project is a modular console application designed to demonstrate
+user authentication, profile administration, account monitoring,
+configuration management, and practical Git workflows.
