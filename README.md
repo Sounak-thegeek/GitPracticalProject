@@ -96,3 +96,8 @@ individual features can be developed and reviewed independently.
 
 The application menu provides profile viewing, profile editing,
 dashboard reporting, settings management, and logout operations.
+
+## Recovery Notes
+
+Git reflog records local references to branch positions and can be used
+to recover commits that are no longer reachable from the current branch tip.
