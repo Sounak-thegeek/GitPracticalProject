@@ -108,3 +108,9 @@ This project is a modular C++ console application demonstrating
 authentication, profile management, dashboard reporting, account settings,
 and practical Git workflows including branching, merging, stash operations,
 conflict resolution, and history recovery.
+
+## Release
+
+Version 1.0 provides the complete console user-management workflow with
+authentication, profile management, dashboard reporting, account settings,
+and documented Git development history.
